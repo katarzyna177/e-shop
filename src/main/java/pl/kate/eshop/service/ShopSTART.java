@@ -43,15 +43,9 @@ public class ShopSTART {
     @EventListener(ApplicationReadyEvent.class)
     public void getShopSTART(){
         System.out.println("ShopSTART");
-        //productService.getProductList();
-        //System.out.println(getFinalSum());
         System.out.println(productList);
         System.out.println("Suma produktów: " + sumOfProducts());
-        //System.out.println(productService.getProductList());
-//        System.out.println("\n*** Online Shop - START ***\n");
-//        System.out.println("Your products list:");
-       //productService.showProducts();
-//        System.out.println("\nYou have: " + productService.getProductList().size() + " items in your basket, of value: " + getFinalSum());
+
 
 
     }

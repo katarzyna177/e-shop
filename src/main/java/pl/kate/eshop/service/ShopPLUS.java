@@ -26,7 +26,7 @@ public class ShopPLUS extends ShopSTART {
     @EventListener(ApplicationReadyEvent.class)
     public void getShopPLUS(){
         System.out.println("ShopPLUS");
-        System.out.println(finalSumWithVat());
+        System.out.println("Suma produktów z VAT: " + finalSumWithVat());
     }
 
 }

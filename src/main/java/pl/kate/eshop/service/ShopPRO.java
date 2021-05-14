@@ -27,6 +27,6 @@ public class ShopPRO extends ShopPLUS {
     @EventListener(ApplicationReadyEvent.class)
     public void getShopPRO(){
         System.out.println("ShopPRO");
-        System.out.println(finalSumAfterDiscount());
+        System.out.println("Suma produktów po zniżce: " + finalSumAfterDiscount());
     }
 }
